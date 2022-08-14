@@ -18,7 +18,8 @@
 		"guzzlehttp/psr7": "^2.4",
 		"psr/cache": "^3.0",
 		"psr/log": "^3.0",
-		"psr/http-client": "^1.0"
+		"psr/http-client": "^1.0",
+		"symfony/console": "^6.1"
 	},
 	"require-dev": {
 		"vimeo/psalm": "^4.26",
