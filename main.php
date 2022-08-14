@@ -59,10 +59,6 @@ if ($transipApi->getTestMode()) {
 	$logger->warning('API running in test mode, no changes will be persisted');
 }
 
-if ($transipApi->test()->test() === true) {
-	$logger->debug('TransIP API connection successful!');
-}
-
 $settings = new Settings(
 	$transipDomainName,
 	$transipDNSEntryName,
