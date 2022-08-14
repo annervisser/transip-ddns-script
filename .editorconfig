@@ -9,3 +9,4 @@ insert_final_newline = true
 max_line_length = 120
 tab_width = 4
 trim_trailing_whitespace = true
+ij_php_align_class_constants = true
